@@ -1,6 +1,5 @@
 <?php
 
-use Solution as GlobalSolution;
 
 class Solution 
 {
@@ -27,4 +26,4 @@ class Solution
 }
 
 
-echo (new GlobalSolution())->findMedianSortedArrays([1, 3], [2, 4]);
+echo (new Solution())->findMedianSortedArrays([1, 3], [2, 4]);
