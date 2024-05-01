@@ -6,6 +6,7 @@ function isMatch(s: string, p: string): boolean {
 
     // Create a 2D array for dynamic programming
     const dp: boolean[][] = new Array(m + 1).fill(false).map(() => new Array(n + 1).fill(false));
+    
     // Empty string and empty pattern match
     dp[0][0] = true;
 
